@@ -1,14 +1,18 @@
 {
-"packageDirectories": [
-  {
-    "path": "force-app",
-    "default": true,
-    "id": "YOUR_PACKAGE_ID",
-    "versionNumber": "1.0.0.NEXT",
-    "versionName": "Spring ‘18"
-  }
-  ],
-  "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "42.0"
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "default": true,
+            "package": "gifter",
+            "versionName": "Golden Master Release",
+            "versionNumber": "1.0.0.NEXT"
+        }
+    ],
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "42.0",
+    "packageAliases": {
+        "gifter": "0Ho1i0000004CB4CAM",
+        "gifter@1.0.0-1": "04t1i000000KMDGAA4"
+    }
 }
